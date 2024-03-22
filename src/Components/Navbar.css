@@ -1,0 +1,14 @@
+#navbar{
+    position: absolute;
+    width: 100%;
+}
+a{
+    /* text-decoration: none; */
+    color: #000;
+}
+.logo{
+    width: 40px;
+}
+.logo>img{
+    width: 100%;
+}

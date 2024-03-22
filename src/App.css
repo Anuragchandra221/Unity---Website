@@ -6,7 +6,12 @@
   height: 40vmin;
   pointer-events: none;
 }
-
+#root{
+  overflow-x: hidden;
+}
+html{
+  scroll-behavior: smooth;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

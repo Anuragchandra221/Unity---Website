@@ -1,0 +1,22 @@
+.member{
+    width: 40%;
+    cursor: pointer;
+}
+.member>img{
+    width: 100%;
+    border-radius: 10px;
+}
+.member>img:hover{
+    transform: scale(1.03);
+    transition: 1s;
+}
+@media screen and (min-width: 576px) {
+    .member{
+        width: 20%;
+    }
+}
+@media screen and (min-width: 768px) {
+    .member{
+        max-width: 20%;
+    }
+}
