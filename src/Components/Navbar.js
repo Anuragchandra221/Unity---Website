@@ -5,9 +5,9 @@ import logo from "../Assets/WhatsApp_Image_2024-03-22_at_5.20.19_PM-removebg-pre
 function Navbar() {
   return (
     <nav className="navbar navbar-expand-md" id='navbar' >
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" href="/" >
         <div className='logo'>
-                <img src={logo}/>
+                <img src={logo} style={{cursor: 'pointer', zIndex: '4'}}/>
             </div>
       </a>
   

@@ -8,7 +8,7 @@ function Header() {
     <div className=''>
         <Navbar/>
         <div className='d-flex header hidden-left justify-content-center align-items-center flex-column'>
-            <h3>
+            <h3 className='heading'>
                 UNITY
             </h3>
             <Typewriter
